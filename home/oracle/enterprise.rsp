@@ -1,0 +1,172 @@
+
+RESPONSEFILE_VERSION=2.2.1.0.0
+
+UNIX_GROUP_NAME="oinstall"
+
+FROM_LOCATION="../stage/products.xml"
+
+#NEXT_SESSION_RESPONSE=<Value Unspecified>
+
+ORACLE_HOME="/u01/app/oracle/product/10.2.0/db_1/"
+
+ORACLE_HOME_NAME="OraDbHome1"
+
+TOPLEVEL_COMPONENT={"oracle.server","10.2.0.1.0"}
+
+DEINSTALL_LIST={"oracle.server","10.2.0.1.0"}
+
+SHOW_SPLASH_SCREEN=false
+
+SHOW_WELCOME_PAGE=false
+
+SHOW_NODE_SELECTION_PAGE=false
+
+SHOW_SUMMARY_PAGE=false
+
+SHOW_INSTALL_PROGRESS_PAGE=false
+
+SHOW_CONFIG_TOOL_PAGE=false
+
+SHOW_XML_PREREQ_PAGE=false
+
+SHOW_ROOTSH_CONFIRMATION=true
+
+SHOW_END_SESSION_PAGE=false
+
+SHOW_EXIT_CONFIRMATION=false
+
+NEXT_SESSION=false
+
+NEXT_SESSION_ON_FAIL=false
+
+SHOW_DEINSTALL_CONFIRMATION=false
+
+SHOW_DEINSTALL_PROGRESS=false
+
+RESTART_SYSTEM=false
+
+RESTART_REMOTE_SYSTEM=false
+
+#REMOVE_HOMES=<Value Unspecified>
+
+#ORACLE_HOSTNAME=<Value Unspecified>
+
+SHOW_END_OF_INSTALL_MSGS=false
+
+#CLUSTER_NODES=<Value Unspecified>
+
+COMPONENT_LANGUAGES={"en"}
+
+INSTALL_TYPE="EE"
+
+s_nameForDBAGrp="dba"
+
+s_nameForOPERGrp="dba"
+
+
+n_configurationOption=3
+
+s_ASMSYSPassword=""
+
+s_ASMSYSPasswordAgain=""
+
+n_dbType=1
+
+#oracle.assistants.server:s_responseFileName=<Value Unspecified>
+
+s_globalDBName="orcl"
+
+s_dbSid="orcl"
+
+s_dbRetChar="ZHS16GBK"
+
+b_loadExampleSchemas=false
+
+b_useDBControl=true
+
+b_receiveEmailNotification=false
+
+#s_dlgEMSMTPServer=<Value Unspecified>
+
+#s_dlgEMEmailAddress=<Value Unspecified>
+
+#s_dlgEMCentralAgentSelected=<Value Unspecified>
+
+n_dbStorageType=1
+
+#s_mountPoint=<Value Unspecified>
+
+#s_rawDeviceMapFileLocation=<Value Unspecified>
+
+b_enableAutoBackup=false
+
+b_useFileSystemForRecovery=true
+
+s_dlgRBORecoveryLocation="/u01/app/oracle/flash_recovery_area"
+
+#s_dlgRBOUsername="oracle"
+
+#s_dlgRBOPassword=<Value Unspecified>
+
+s_dlgASMCfgDiskGroupName="DATA"
+
+#s_dlgASMCfgDiskDiscoveryString=<Value Unspecified>
+
+#n_dlgASMCfgRedundancySelected=1
+
+#sl_dlgASMCfgSelectableDisks=<Value Unspecified>
+
+#sl_dlgASMCfgDiskSelections=<Value Unspecified>
+
+sl_dlgASMDskGrpSelectedGroup={" "," "," "," "}
+
+b_centrallyManageASMInstance=true
+
+b_useSamePassword=true
+
+#s_superAdminSamePasswd=<Value Unspecified>
+
+#s_superAdminSamePasswdAgain=<Value Unspecified>
+
+#sl_superAdminPasswds=<Value Unspecified>
+
+#sl_superAdminPasswdsAgain=<Value Unspecified>
+
+
+n_performUpgrade=0
+
+n_upgradeDB=0
+
+s_dbOHSelectedForUpgrade=""
+
+s_dbSIDSelectedForUpgrade="orcl"
+
+n_upgradeASM=0
+
+s_dbSelectedUsesASM="no"
+
+
+sl_upgradableSIDBInstances={}
+sl_upgradableRACDBInstances={}
+
+
+n_dbSelection=0
+
+
+b_stateOfUpgradeASMCheckbox=false
+
+b_stateOfUpgradeDBCheckbox=false
+
+
+b_oneClick=false
+
+
+s_dlgASMCfgRedundancyValue=""
+
+s_dlgASMCfgExistingFreeSpace="0"
+
+
+s_dlgASMCfgNewDisksSize=""
+
+s_dlgASMCfgAdditionalSpaceNeeded="0 MB"
+
