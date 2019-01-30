@@ -114,7 +114,7 @@ Now product-specific root actions will be performed.
 命令如下：
 [oracle@d04d09214dab templates]$ pwd
 /u01/app/oracle/product/10.2.0/db_1/assistants/dbca/templates
-[oracle@d04d09214dab templates]$ dbca -silent -createDatabase -templateName General_Purpose.dbc -gdbname orcl -sid orcl -sysPassword orclbsth -systemPassword orclbsth -responseFile NO_VALUE -datafileDestination /u01/app/oracle/oradata/ -recoveryAreaDestination /u01/app/oracle/flash_recovery_area -storageType FS -characterSet ZHS16GBK -nationalCharacterSet AL16UTF16 -sampleSchema true -memoryPercentage 30 -databaseType OLTP -emConfiguration NONE
+[oracle@d04d09214dab templates]$ dbca -silent -createDatabase -templateName General_Purpose.dbc -gdbname orcl -sid orcl -sysPassword pwd -systemPassword pwd -responseFile NO_VALUE -datafileDestination /u01/app/oracle/oradata/ -recoveryAreaDestination /u01/app/oracle/flash_recovery_area -storageType FS -characterSet ZHS16GBK -nationalCharacterSet AL16UTF16 -sampleSchema true -memoryPercentage 30 -databaseType OLTP -emConfiguration NONE
 
 步骤9：
 启动oracle数据库和监听
